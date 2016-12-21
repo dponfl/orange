@@ -33,5 +33,10 @@
     "url": "git://github.com/anonymous node/sails user/orange.git"
   },
   "author": "anonymous node/sails user",
-  "license": ""
+  "license": "",
+  "devDependencies": {
+    "angular": "^1.6.0",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
 }
