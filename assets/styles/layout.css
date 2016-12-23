@@ -1,0 +1,45 @@
+#header-block {
+    height: 200px;
+    background-image: url("../images/header.jpg");
+    position: relative;
+}
+
+.header-block_logo {
+    width: 265px;
+    height: 150px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.logo-img {
+    width: 100%;
+    height: 100%;
+}
+
+.panel.contacts-block {
+    float: right;
+    width: 253px;
+    height: 107px;
+    margin-top: 0;
+    margin-right: 92px;
+    background-color: #f08000;
+}
+
+.panel.message-block {
+    position: fixed;
+    width: 140px;
+    height: 40px;
+    top: 124px;
+    right: 160px;
+    background-color: #94c11f;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
