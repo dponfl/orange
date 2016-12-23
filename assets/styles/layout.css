@@ -1,7 +1,7 @@
 #header-block {
     height: 200px;
     background-image: url("../images/header.jpg");
-    position: relative;
+    /*position: relative;*/
 }
 
 .header-block_logo {
@@ -18,21 +18,52 @@
 }
 
 .panel.contacts-block {
-    float: right;
     width: 253px;
     height: 107px;
-    margin-top: 0;
-    margin-right: 92px;
     background-color: #f08000;
+    float: right;
+    position: absolute;
+    right: 92px;
+    top: 0;
 }
 
 .panel.message-block {
-    position: fixed;
     width: 140px;
     height: 40px;
-    top: 124px;
-    right: 160px;
     background-color: #94c11f;
+    display: inline-block;
+    float: right;
+    margin-right: 135px;
+    margin-top: 124px;
+}
+
+.navbar-inverse {
+    background-color: #BCBCBC;
+    border-color: #BCBCBC;
+}
+
+.nav li a {
+    text-align: center;
+    color: #ffffff !important;
+}
+
+.nav li a:hover {
+    color: #23527c !important;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover {
+    color: #204d74 !important;
+    background-color: #BCBCBC;
+}
+
+.nav {
+    margin-left: 30px;
+}
+
+.navbar-form {
+    margin-top: 15px;
+    margin-left: 120px;
 }
 
 .affix {
