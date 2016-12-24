@@ -1,7 +1,11 @@
-#header-block {
+header {
+    min-width: 650px;
+}
+
+.header-block {
     height: 200px;
     background-image: url("../images/header.jpg");
-    /*position: relative;*/
+    position: relative;
 }
 
 .header-block_logo {
@@ -22,19 +26,21 @@
     height: 107px;
     background-color: #f08000;
     float: right;
-    position: absolute;
-    right: 92px;
-    top: 0;
+    position: relative;
+    margin-right: 80px;
+    /*right: 92px;*/
+    /*top: 0;*/
 }
 
 .panel.message-block {
     width: 140px;
     height: 40px;
     background-color: #94c11f;
-    display: inline-block;
+    /*display: inline-block;*/
     float: right;
-    margin-right: 135px;
-    margin-top: 124px;
+    position: relative;
+    margin-right: 130px;
+    margin-top: 10px;
 }
 
 .navbar-inverse {
@@ -74,3 +80,7 @@
 .affix + .container-fluid {
     padding-top: 70px;
 }
+/************************************
+   New look test
+ */
+
