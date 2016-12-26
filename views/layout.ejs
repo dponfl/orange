@@ -29,26 +29,83 @@
     -->
 
     <!--STYLES-->
+    <link rel="stylesheet" href="/styles/bootstrap-glyphicons.css">
     <link rel="stylesheet" href="/styles/bootstrap.css">
     <link rel="stylesheet" href="/styles/layout.css">
     <!--STYLES END-->
+
+    <!--
+      Modernizr files to be placed here
+    -->
+
+    <!--MODERNIZR-->
+    <script src="/js/dependencies/Modernizr/modernizr-2.6.2.min.js"></script>
+    <!--MODERNIZR END-->
   </head>
 
   <body ng-app>
-    <!--<header>
-      <div id="header-block" class="container-fluid">
-        <a href="/" class="header-block_logo">
-          <img src="../images/logo.png" alt="Orange Holiday Villas logo" class="logo-img">
+    <!--<div class="row" id="main">-->
+      <div class="row header-block">
+        <a href="/" class="header-block-logo pull-left navbar-collapse collapse">
+          <img src="../images/logo-orange.png" alt="Orange Holiday Villas logo" class="logo-img">
         </a>
-        <div class="panel contacts-block clearfix">
+        <div class="row header-block-contacts pull-right">
+          <div id="contacts">
 
-        </div>
-        <div class="panel message-block">
+          </div>
+          <div id="message">
 
+          </div>
+
+          <form id="object-find" role="search">
+            <div class="form-group pull-left">
+              <input type="text" id="object-find_input" class="form-control" placeholder="№ объекта">
+            </div>
+            <button type="submit" id="object-find_button" class="btn btn-info pull-left">Найти</button>
+          </form>
         </div>
-      </div>
-    </header>-->
-    <header class="row">
+      </div> <!-- end header-block -->
+
+
+      <div class="navbar navbar-default" data-spy="affix" data-offset-top="200">
+
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <img src="../images/logo-orange.png" alt="Orange Holiday Villas logo" height="50px">
+          </a>
+          <div class="navbar-collapse collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active">
+                <a href="#">Главная</a>
+              </li>
+              <li>
+                <a href="#">Эксклюзив</a>
+              </li>
+              <li>
+                <a href="#">Покупка</a>
+              </li>
+              <li>
+                <a href="#">Продажа</a>
+              </li>
+            </ul> <!-- end nav -->
+          </div> <!-- end navbar-collapse -->
+        </div> <!-- end container -->
+      </div> <!-- navbar -->
+
+    <!--</div> &lt;!&ndash; main &ndash;&gt;-->
+
+    <div class="container" id="content">
+        <%- body %>
+    </div>
+
+    <footer>
+    </footer>
+
+
+
+
+
+    <!--<header class="row">
       <div class="container-fluid col-lg-12 header-block">
         <div class="row">
           <div class="col-lg-2">
@@ -88,11 +145,11 @@
           </form>
         </ul>
       </nav>
-    </div>
+    </div>-->
 
 
 
-    <%- body %>
+
 
 
 
@@ -146,7 +203,7 @@
     -->
 
     <!--SCRIPTS-->
-    <script src="/js/dependencies/sails.io.js"></script>
+    <script src="/js/dependencies/Sails/sails.io.js"></script>
     <script src="/js/dependencies/jQuery/jquery.js"></script>
     <script src="/js/dependencies/Bootstrap/bootstrap.js"></script>
     <script src="/js/dependencies/Angular/angular.js"></script>

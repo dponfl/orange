@@ -1,19 +1,23 @@
-header {
-    min-width: 650px;
+/*
+   CSS stiles for Orange Holiday Villas
+   Author: iStudioDTD.com
+ */
+
+
+#content {
+    padding-top: 0;
 }
 
 .header-block {
-    height: 200px;
-    background-image: url("../images/header.jpg");
-    position: relative;
+    background: url("../images/header.jpg");
+    height: 210px;
 }
 
-.header-block_logo {
-    width: 265px;
-    height: 150px;
-    float: left;
-    margin-left: 20px;
-    margin-top: 30px;
+.header-block-logo {
+    width: 350px;
+    /*height: 150px;*/
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 .logo-img {
@@ -21,66 +25,54 @@ header {
     height: 100%;
 }
 
-.panel.contacts-block {
-    width: 253px;
-    height: 107px;
-    background-color: #f08000;
-    float: right;
-    position: relative;
-    margin-right: 80px;
-    /*right: 92px;*/
-    /*top: 0;*/
+.navbar-brand {
+    padding: 0 10px 0 0;
 }
 
-.panel.message-block {
+.header-block-contacts {
+    width: 385px;
+    height: 200px;
+}
+
+#contacts {
+    width: 254px;
+    height: 106px;
+    margin-left: 20px;
+    background-color: #f08000;
+}
+
+#message {
     width: 140px;
     height: 40px;
+    margin-left: 80px;
     background-color: #94c11f;
-    /*display: inline-block;*/
-    float: right;
-    position: relative;
-    margin-right: 130px;
-    margin-top: 10px;
+    margin-top: 7px;
 }
 
-.navbar-inverse {
-    background-color: #BCBCBC;
-    border-color: #BCBCBC;
+#object-find {
+    height: 40px;
+    width: 282px;
+    margin-top: 7px;
+    margin-left: 8px;
+    background-color: gainsboro;
 }
 
-.nav li a {
-    text-align: center;
-    color: #ffffff !important;
+#object-find_input {
+    margin-top: 3px;
+    margin-left: 5px;
 }
 
-.nav li a:hover {
-    color: #23527c !important;
-}
-
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover {
-    color: #204d74 !important;
-    background-color: #BCBCBC;
-}
-
-.nav {
-    margin-left: 30px;
-}
-
-.navbar-form {
-    margin-top: 15px;
-    margin-left: 120px;
+#object-find_button {
+    margin-top: 3px;
+    margin-left: 10px;
 }
 
 .affix {
     top: 0;
+    left: 0;
     width: 100%;
 }
 
-.affix + .container-fluid {
-    padding-top: 70px;
+.affix + #content {
+    padding-top: 70px;;
 }
-/************************************
-   New look test
- */
-

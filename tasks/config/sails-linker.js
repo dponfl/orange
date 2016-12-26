@@ -30,6 +30,20 @@
 module.exports = function(grunt) {
 
   grunt.config.set('sails-linker', {
+    modJs: {
+      options: {
+        startTag: '<!--MODERNIZR-->',
+        endTag: '<!--MODERNIZR END-->',
+        fileTmpl: '<script src="%s"></script>',
+        appRoot: '.tmp/public'
+      },
+      files: {
+        '.tmp/public/**/*.html': require('../pipeline').jsModFilesToInject,
+        'views/**/*.html': require('../pipeline').jsModFilesToInject,
+        'views/**/*.ejs': require('../pipeline').jsModFilesToInject
+      }
+    },
+
     devJs: {
       options: {
         startTag: '<!--SCRIPTS-->',
