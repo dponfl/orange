@@ -1,12 +1,31 @@
 /*
-   CSS stiles for Orange Holiday Villas
-   Author: iStudioDTD.com
- */
 
+Custom CSS
+=============
+
+Author:  iStudioDTD.com
+Updated: December 2016
+Notes:	 Hand coded for Orange Holiday Villas
+
+*/
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
 
 #content {
     padding-top: 0;
 }
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
 
 .header-block {
     background: url("../images/header.jpg");
@@ -75,4 +94,41 @@
 
 .affix + #content {
     padding-top: 70px;;
+}
+
+.dropdown-header {
+    /*font-weight: 200;*/
+    font-size: medium;
+    font-style: italic;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
 }
