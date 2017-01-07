@@ -53,6 +53,17 @@ Notes:	 Hand coded for Orange Holiday Villas
     height: 200px;
 }
 
+.block-contacts__details {
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-weight: 300;
+}
+
+.block-contacts__details:first-of-type {
+    padding-top: 15px;
+}
+
 #contacts {
     width: 254px;
     height: 106px;
@@ -62,10 +73,15 @@ Notes:	 Hand coded for Orange Holiday Villas
 
 #message {
     width: 140px;
-    height: 40px;
+    height: 42px;
     margin-left: 80px;
     background-color: #94c11f;
-    margin-top: 7px;
+    margin-top: 6px;
+    padding: 0 5px;
+}
+
+#message:hover {
+    background-color: #759C0E;
 }
 
 #object-find {
