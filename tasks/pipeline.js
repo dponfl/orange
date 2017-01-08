@@ -42,6 +42,12 @@ var jsFilesToInject = [
   // Load Angular
   'js/dependencies/Angular/**/*.js',
 
+  // Load application modules
+  'js/modules/**/*.js',
+
+  // Load application controllers
+  'js/controllers/**/*.js',
+
   // Dependencies like jQuery, or Angular are brought in here
   'js/dependencies/Other/**/*.js',
 

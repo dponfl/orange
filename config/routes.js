@@ -38,6 +38,24 @@ module.exports.routes = {
   '/exclusive': {
     view: 'exclusive'
   },
+  '/longterm': {
+    view: 'longterm'
+  },
+  '/shortterm': {
+    view: 'shortterm'
+  },
+  '/sale': {
+    view: 'sale'
+  },
+  '/qa': {
+    view: 'qa'
+  },
+  '/contacts': {
+    view: 'contacts'
+  },
+  '/services': {
+    view: 'services'
+  },
 
   /***************************************************************************
   *                                                                          *
