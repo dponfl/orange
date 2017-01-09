@@ -1,26 +1,38 @@
-<div class="container">
-    <div class="row">
-        <h1>h1 Main</h1>
-        <h2>h{{1+1}} Main</h2>
-        <h3>h3 Main</h3>
-        <h4>h4 Main</h4>
-        <h5>h5 Main</h5>
-    </div>
-</div>
+<div class="carousel slide" id="mainCarousel">
 
-<div class="container">
-    <div class="row">
-        <h1>1 Some text to enable scrolling</h1>
-        <h1>2 Some text to enable scrolling</h1>
-        <h1>3 Some text to enable scrolling</h1>
-        <h1>{{1+3}} Some text to enable scrolling</h1>
-        <h1>Some text to enable scrolling</h1>
-        <h1>Some text to enable scrolling</h1>
-        <h1>Some text to enable scrolling</h1>
-        <h1>Some text to enable scrolling</h1>
-        <h1>Some text to enable scrolling</h1>
-        <h1>Some text to enable scrolling</h1>
-        <h1>Some text to enable scrolling</h1>
-    </div>
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li class="active" data-slide-to="0" data-target="#mainCarousel"></li>
+        <li data-slide-to="1" data-target="#mainCarousel"></li>
+        <li data-slide-to="2" data-target="#mainCarousel"></li>
+    </ol>
 
-</div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+        <div class="item active" id="slide01">
+            <div class="carousel-caption">
+                <h4>Slide 01 message</h4>
+            </div> <!-- end of carousel-caption -->
+        </div> <!-- end of item -->
+
+        <div class="item" id="slide02">
+            <div class="carousel-caption">
+                <h4>Slide 02 message</h4>
+            </div> <!-- end of carousel-caption -->
+        </div> <!-- end of item -->
+
+        <div class="item" id="slide03">
+            <div class="carousel-caption">
+                <h4>Slide 03 message</h4>
+            </div> <!-- end of carousel-caption -->
+        </div> <!-- end of item -->
+
+    </div> <!-- end of carousel-inner -->
+
+    <!-- Controls -->
+    <a class="left carousel-control" data-slide="prev" href="#mainCarousel"><span class="icon-prev"></span></a>
+    <a class="right carousel-control" data-slide="next" href="#mainCarousel"><span class="icon-next"></span></a>
+
+</div> <!-- end of mainCarousel -->
+
