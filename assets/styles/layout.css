@@ -38,7 +38,6 @@ nav {
 
 .header-block-logo {
     width: 350px;
-    /*height: 150px;*/
     margin-left: 30px;
     margin-top: 20px;
 }
@@ -61,7 +60,6 @@ nav {
     text-align: center;
     color: white;
     font-size: large;
-    font-weight: 300;
 }
 
 .block-contacts__details:first-of-type {
@@ -117,7 +115,6 @@ nav {
 }
 
 .dropdown-header {
-    /*font-weight: 200;*/
     font-size: medium;
     font-style: italic;
 }
