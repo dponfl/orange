@@ -21,6 +21,10 @@ Notes:	 Hand coded for Orange Holiday Villas
    Typography
    -------------------------------------- */
 
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
 
 
 /* --------------------------------------

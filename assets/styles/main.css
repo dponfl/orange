@@ -53,6 +53,38 @@ Notes:	 Hand coded for Orange Holiday Villas
 }
 
 /* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+.well {
+    margin: 20px 0;
+    padding: 0;
+}
+.well .page-body {
+    padding: 19px;
+}
+
+.well .page-header.page-primary {
+    margin-top: 0;
+    background-color: #2e6da4;
+}
+
+.well .page-header.page-primary h1 {
+    padding: 19px;
+    margin-top: 0;
+    color: white;
+}
+
+.well .page-header.page-primary h1 small {
+    color: gainsboro;
+}
+
+/* --------------------------------------
    Media Queries
    -------------------------------------- */
 
