@@ -1,0 +1,79 @@
+/*
+
+Custom CSS
+=============
+
+Author:  iStudioDTD.com
+Updated: January 2017
+Notes:	 Hand coded for Orange Holiday Villas
+
+*/
+
+/* --------------------------------------
+   Main block
+   -------------------------------------- */
+
+#main-block {
+    margin-top: 50px;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+#exclusiveAlert {
+    margin-top: 40px;
+}
+
+#exclusiveFilter {
+    background-color: white;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+.well {
+    margin: 20px 0;
+    padding: 0;
+}
+.well .page-body {
+    padding: 19px;
+}
+
+.well .page-header.page-primary {
+    margin-top: 0;
+    background-color: #20A6ED;
+}
+
+.well .page-header.page-primary h1 {
+    padding: 19px;
+    margin-top: 0;
+    color: white;
+}
+
+.well .page-header.page-primary h1 small {
+    color: gainsboro;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+
+}
