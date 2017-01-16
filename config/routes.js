@@ -35,7 +35,7 @@ module.exports.routes = {
   '/': {
     view: 'main'
   },
-  '/exclusive': {
+  /*'/exclusive': {
     view: 'exclusive'
   },
   '/longterm': {
@@ -55,7 +55,7 @@ module.exports.routes = {
   },
   '/services': {
     view: 'services'
-  },
+  },*/
 
   /***************************************************************************
   *                                                                          *

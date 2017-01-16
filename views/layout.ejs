@@ -46,7 +46,7 @@
     <!--MODERNIZR END-->
   </head>
 
-  <body ng-app="orangeMain">
+  <body ng-app="orangeMain" id="appOrange" data-spy="scroll" data-target=".navbar" data-offset="60">
     <div class="row header-block">
       <a href="/" class="header-block-logo pull-left navbar-collapse collapse">
         <img src="../images/logo-orange.png" alt="Orange Holiday Villas logo" class="logo-img">
@@ -88,10 +88,10 @@
 
           <ul class="nav navbar-nav">
             <li ng-class="{active: isActiveMenuItem('/')}">
-              <a href="/">Главная</a>
+              <a href="#main">Главная</a>
             </li>
             <li ng-class="{active: isActiveMenuItem('/exclusive')}">
-              <a href="/exclusive">Эксклюзив</a>
+              <a href="#exclusive">Эксклюзив</a>
             </li>
             <li ng-class="{active: isActiveMenuItem('/longterm')}">
               <a href="/longterm">Долгосрочная аренда</a>
