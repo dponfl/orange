@@ -27,6 +27,10 @@ Notes:	 Hand coded for Orange Holiday Villas
    Navbar
    -------------------------------------- */
 
+nav {
+    z-index: 100000;
+}
+
 .header-block {
     background: url("../images/header.jpg");
     height: 210px;
